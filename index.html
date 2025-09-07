@@ -11,6 +11,54 @@
             box-sizing: border-box;
         }
 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 1.2em;
+        }
+
+        a {
+            display: inline-block;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+    </style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         :root {
             --bg-gradient-light: linear-gradient(135deg, #e0e0e0 0%, #ffffff 100%);
             --bg-gradient-dark: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -316,8 +364,18 @@
     </style>
 </head>
 <body>
-    <button class="theme-toggle" id="themeToggle">☀️ Light Mode</button>
-    <div class="calculator-container">
+    <div class="container">
+        <h1>Advanced Calculator</h1>
+        <p>Welcome to our feature-rich calculator application!</p>
+        <a href="calculator.html" id="startButton">Start Calculator</a>
+    </div>
+
+    <script>
+        // Check if we're on GitHub Pages
+        if (window.location.hostname.includes('github.io')) {
+            document.getElementById('startButton').href = 'src/index.html';
+        }
+    </script>
         <div class="memory-display" id="memoryDisplay"></div>
         
         <div class="display-container">

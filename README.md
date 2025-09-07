@@ -16,7 +16,18 @@ A feature-rich calculator web application built with HTML, CSS, and JavaScript. 
 
 ## Demo
 
-[Live Demo](Add your demo link here)
+You can try the calculator here: [Live Demo](https://Kamleshrao007.github.io/calculator/)
+
+### Deployment
+
+The calculator is deployed using GitHub Pages. To deploy your own version:
+
+1. Fork this repository
+2. Go to the repository settings
+3. Navigate to "Pages" under "Code and automation"
+4. Under "Source", select "Deploy from a branch"
+5. Select the "main" branch and save
+6. Your calculator will be available at `https://Kamleshrao007.github.io/calculator/`
 
 ## Screenshots
 
@@ -26,7 +37,7 @@ Add screenshots here
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/calculator.git
+git clone https://github.com/Kamleshrao007/calculator.git
 ```
 
 2. Open `src/index.html` in your web browser.
@@ -82,7 +93,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Your Name - [Your GitHub Profile](https://github.com/yourusername)
+Kamlesh Rao - [GitHub Profile](https://github.com/Kamleshrao007)
 
 ## Acknowledgments
 
