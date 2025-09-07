@@ -1,0 +1,21 @@
+{
+  "name": "advanced-calculator",
+  "version": "1.0.0",
+  "description": "A feature-rich calculator web application with basic and scientific functions",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve src"
+  },
+  "keywords": [
+    "calculator",
+    "javascript",
+    "web-app",
+    "scientific-calculator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
